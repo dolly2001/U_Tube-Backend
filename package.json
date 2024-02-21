@@ -1,0 +1,16 @@
+{
+  "name": "project-u",
+  "version": "1.0.0",
+  "description": "A U Tube Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush Solanki",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
