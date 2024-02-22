@@ -15,7 +15,7 @@ connectDB()
         process.exit(1)
     })
 
-    app.listen(process.env.PORT || 4000 , () => {
+    app.listen(process.env.PORT || 8000 , () => {
         console.log(`YOUR SERVER IS LIVE NOW ON PORT ${process.env.PORT}`);
     })
 
